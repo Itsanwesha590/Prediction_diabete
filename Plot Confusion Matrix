@@ -1,0 +1,4 @@
+disp = ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=["No Diabetes", "Diabetes"])
+disp.plot(cmap="Blues")
+plt.title('Confusion Matrix for Diabetes Prediction')
+plt.show()
