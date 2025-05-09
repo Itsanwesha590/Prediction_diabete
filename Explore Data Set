@@ -1,0 +1,6 @@
+print("Dataset Info:")
+print(df.info())
+print("\nSummary Statistics:")
+print(df.describe())
+print("\nMissing Values:")
+print(df.isnull().sum())
